@@ -3,6 +3,7 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+	background-image: url("https://origin.cronosmedia.glr.pe/large/2021/07/20/lg_60f6ef6905f8345e920a0516.jpg");
 }
 .cardContainer {
 	display: flex;

@@ -67,3 +67,6 @@ span [class*="btn-"] {
     height: 43px;
     margin-left: 10px;
 }
+.logoImg {
+    width: 160px;
+}

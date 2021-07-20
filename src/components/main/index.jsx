@@ -1,18 +1,15 @@
 import './style.css'
-import background from '../../img/FOTO-PORTADA.JPG'
-import cap1 from '../../img/FOTO-ABRE-INFORME.jpg'
-import cap2 from '../../img/FOTO-ABRIDORA.jpg'
 import Titulo from '../titulo'
 import Card from '../card'
 
 const Main = () => {
     return (
-        <div className="screen" style={{ backgroundImage: `url(${background})` }}>
+        <div className="screen">
             <div className="container">
                 <Titulo />
                 <div className="cardContainer">
-                    <Card imagen={cap1} titulo={'Capítulo 1: Un sueño incomprendido: volver al rincón del que tantos solo quieren irse'} link={'#'} />
-                    <Card imagen={cap2} titulo={'Capítulo 2: Iñapari, la otra frontera agresiva'} link={'#'} />
+                    <Card imagen={"https://origin.cronosmedia.glr.pe/large/2021/07/20/lg_60f6f5a29a409932e828320d.jpg"} titulo={'Un sueño incomprendido: volver al rincón del que tantos solo quieren irse'} link={'https://data.larepublica.pe/sueno-incomprendido-volver-al-rincon-del-que-tantos-quieren-irse/'} />
+                    <Card imagen={"https://origin.cronosmedia.glr.pe/large/2021/07/20/lg_60f6f521f4d29b6b1d28096b.jpg"} titulo={'Iñapari, la otra frontera agresiva'} link={'https://data.larepublica.pe/inapari-la-otra-frontera-agresiva/'} />
                 </div>
             </div>
         </div>
